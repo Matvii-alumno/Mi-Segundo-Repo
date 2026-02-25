@@ -1,5 +1,5 @@
 FROM nginx:alpine
 
-COPY paginaweb.html /usr/share/nginx/html/paginaweb.html
+COPY . /usr/share/nginx/html
 
 EXPOSE 80
